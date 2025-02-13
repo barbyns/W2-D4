@@ -85,6 +85,10 @@ console.log(check3and7(244));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const reverseString = function (str){
+return str.split("EPICODE").reverse().join("EDOCIPE");
+}
+console.log(reverseString("EPICODE")); // "EDOCIPE"
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
@@ -99,9 +103,14 @@ console.log(check3and7(244));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const cutString = function (bene)
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const giveMeRandom = function (n1){
+    const randomNumber = Math.floor(Math.random()*5);
+    console.log(randomNumber)
+}
